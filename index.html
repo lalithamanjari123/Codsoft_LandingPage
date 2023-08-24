@@ -1,0 +1,142 @@
+<html>
+<head>
+	<title>Flower World</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+	<style type="text/css">
+	body{
+		background-image: url(./Background2.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.company-name{
+		color: white;
+		font-size: 35px;
+		margin-right: 45%;
+		font-weight: bold;
+		animation:rainbow 3s infinite linear;
+	}
+	.logo img{
+		border-radius: 50%;
+
+	}
+	.menu{
+		display: flex;
+		justify-content:space-between;
+		align-items:center;
+		padding: 1px 20px;
+	}
+	.menu-items a{
+		padding: 14px 16px;
+		color: white;
+		width: 80%;
+		font-size: 25px;
+		text-decoration: none;
+	}
+	
+	.menu-items a:hover{
+		background-color:#F96E6E;
+	}
+	.message{
+		text-align: center;
+		height: 150px;
+		width: 1000px;
+		
+	}
+	.typing-text1{
+		font-size: 34px;
+		font-family: cursive;
+		white-space: nowrap;
+		overflow: hidden;
+		border-right: 1px solid black;
+		animation:typing 10s steps(100);
+	}
+	.head{
+		font-size: 50px;
+		font-family: bold;
+	}
+	
+	@keyframes rainbow{
+		0%{color: red;}
+		16.666%{color: orange;}
+		33.333%{color: yellow;}
+		50%{color: green;}
+		66.666%{color: blue;}
+		83.333%{color: indigo;}
+		100%{color: violet;}
+	}
+	@keyframes typing{
+		from{width: 0;}
+		to{width: 100%;}
+	}
+	hr{
+		width: 150px;
+		color: green;
+	}
+	.foot{
+		font-size: 40px;
+		margin-top: 2%;
+	}
+	i{
+		border: 2px solid black;
+		border-radius: 50%;
+		background-color: black;
+		color: white;
+		font-size: 35px;
+	}
+	input[type="button"]{
+		height: 50px;
+		width: 100px;
+		border-radius: 15%;
+		margin-top:15%;
+		font-size: 15px;
+		text-align: center;
+		padding: 15px;
+		color: white;
+		background-color:violet;
+		box-shadow:6px 6px 6px rgba(0,0,0,0.3);
+	}
+</style>
+
+</head>
+<body>
+	<div class="menu">
+	<div class="logo">
+	<img src="logo.png">
+	</div>
+	<div class="company-name">
+	Flower World 
+	</div>
+	<div class="menu-items">
+	<a href="#">Home</a>
+	<a href="#">About</a>
+	<a href="#">Catalog</a>
+	<a href="#">Reviews</a>
+	<a href="#">Blog</a>
+	</div>
+	</div>
+	<center>
+	<div class="message">
+	<h1 class="head">Gift Flowers</h1>
+	<p class="tag"><hr>On All Special Occasions<hr></p>
+	<p class="typing-text1">"Blossom into the world of beauty and fragrance at
+	<br>our flower shop,where every petal tells a story of</br>
+	&nbsp;&nbsp;&nbsp;nature's elegance"</p>
+	</div>
+	</center>
+	<center>
+		<div class="btn"><input type="button" value="Shop Now"></div>
+	</center>
+	<center>
+	<div class="foot">
+		<i class='bx bxl-twitter'></i>
+		<i class='bx bxl-linkedin'></i>
+		<i class='bx bxl-facebook'></i>
+		<i class='bx bxl-instagram'></i>
+	</div>
+	</center>
+</body>
+</html>
